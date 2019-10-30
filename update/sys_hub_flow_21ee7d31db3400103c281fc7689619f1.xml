@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"297c5f58-3dff-4e39-9fc9-1ac7f0e5238d.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"f1988408-bfce-46cc-aa80-5ec46916e2b8.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"15b91118-962c-416a-99c6-1d400bdee6e8.follow_up_task","label":"4.1➛Follow-up task","reference":"x_58872_needit_needit_task","reference_display":"Follow-up task","type":"reference","base_type":"reference"},{"name":"d2d068d1-c538-4955-92fd-d1021dddf450.Record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d2d068d1-c538-4955-92fd-d1021dddf450.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"02cd3fa4-4bd0-4a61-a93f-e08c7f25d7a1.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"02cd3fa4-4bd0-4a61-a93f-e08c7f25d7a1.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"02cd3fa4-4bd0-4a61-a93f-e08c7f25d7a1.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"4fdc00a7-2d3f-4bb9-aa28-26160085c9ee.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"4fdc00a7-2d3f-4bb9-aa28-26160085c9ee.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"4fdc00a7-2d3f-4bb9-aa28-26160085c9ee.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Find and Close Long Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-30 13:29:20</sys_created_on>
+        <sys_id>21ee7d31db3400103c281fc7689619f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_286552_needit_sp">8bfd793ddbf000103c281fc768961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">8bfd793ddbf000103c281fc768961961</sys_scope>
+        <sys_update_name>sys_hub_flow_21ee7d31db3400103c281fc7689619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-30 14:09:04</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=21ee7d31db3400103c281fc7689619f1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21ee7d31db3400103c281fc7689619f1"/>
+</record_update>
